@@ -1,0 +1,45 @@
+{
+  "name": "ts-issue-35",
+  "version": "0.0.0",
+  "description": "A new Trails.js Application",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "Ryan Wang",
+    "email": "wongyouth@gmail.com",
+    "url": "https://github.com/trailsjs"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.2",
+    "trailpack-express": "^2.0.0",
+    "trailpack-footprints": "^2.0.0",
+    "trailpack-repl": "^2.1.0",
+    "trailpack-router": "^2.1.0",
+    "trailpack-sequelize": "^2.0.0",
+    "trails": "^2.0.0",
+    "winston": "^2.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.11",
+    "eslint-config-trails": "latest",
+    "mocha": "^2.5",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "wongyouth/ts-issue-35",
+  "license": "MIT"
+}
